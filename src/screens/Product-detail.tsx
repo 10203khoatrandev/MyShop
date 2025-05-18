@@ -1,7 +1,5 @@
-import { useState, useEffect } from "react";
-import { Star } from "lucide-react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { useParams, useLocation } from "react-router-dom";
 import { useCart } from "@/context/CartContext";
 

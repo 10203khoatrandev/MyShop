@@ -2,7 +2,6 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import App from "./App.tsx";
 import HomePage from "./screens/Homepage-ecommerce.tsx";
 import ProductDetailPage from "./screens/Product-detail.tsx";
 import ScrollToTop from "./components/ui/ScrollToTop.tsx";

@@ -1,19 +1,10 @@
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuTrigger,
-  DropdownMenuContent,
-  DropdownMenuItem,
-} from "@/components/ui/dropdown-menu";
-import { ChevronDown, ChevronUp, ShoppingCart, User } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function HomePage() {
   const [email, setEmail] = useState("");
-  const [search, setSearch] = useState("");
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   // Thay đổi trong phần state & data
   const product = [
